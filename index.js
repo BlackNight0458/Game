@@ -109,7 +109,7 @@ Insane.onclick = function(){
             text.style.display = 'none'; 
             div.style.display = 'none'; 
             i=0;
-            txt.style.color = 'red';
+            txt.style.color = 'rgb(2, 255, 242)';
             txt.innerHTML = '疯狂模式,胜利!'
             txt.style.display = 'block'
         }
@@ -173,7 +173,7 @@ Endless.onclick = function(){
             div.style.display = 'none'; 
             i=0;
             txt.style.color = 'red';
-            txt.innerHTML = '无尽模式,胜利!'
+            txt.style.color = 'rgb(2, 255, 242)';
             txt.style.display = 'block'
         }
     },1000);
